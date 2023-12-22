@@ -3,5 +3,10 @@
   "carouselImages": [
     "https://bolddementiadetection.org/wp-content/uploads/2022/04/home-slide2-1.jpg",
     "https://bolddementiadetection.org/wp-content/uploads/2022/02/home-hero.jpg"
+  ],
+  "aboutImage": [
+    "https://i0.wp.com/bolddementiadetection.org/wp-content/uploads/2022/04/BOLD_logo_final.png?fit=1024%2C386&ssl=1",
+    "https://i0.wp.com/bolddementiadetection.org/wp-content/uploads/2022/04/purplepng.png?fit=720%2C720&ssl=1",
+    "https://i0.wp.com/bolddementiadetection.org/wp-content/uploads/2022/04/phce.png?fit=955%2C313&ssl=1"
   ]
 }
