@@ -3,6 +3,7 @@ import SlideShow from "./components/SlideShow";
 import imageLinks from "./data/imageLinks.json";
 import WhoWeAre from "./components/WhoWeAre";
 import OurMission from "./components/OurMission";
+import WeFacilitate from "./components/WeFacilitate";
 
 function App() {
   return (
@@ -28,6 +29,11 @@ function App() {
         details1=" the process of detecting cognitive impairment and developing a comprehensive care pathway. Our early detection of dementia care pathway has 4 simple steps, with real-world examples of successful strategies implemented across the care ecosystem."
         details2=" the importance of integrating early detection into primary and other health care and community settings. By shortening the delay between detection of cognitive impairment and implementing appropriate care and support people with dementia can live well. In Partner Spotlights, we highlight innovative early detection work by leaders in this field and showcase concrete, actionable efforts adaptable to diverse settings."
         details3=" evidence-based practices and strategies to increase rates of early detection of dementia nationally. Our Center provides technical assistance to support capacity building, decision-making, and strategic planning. We also facilitate knowledge sharing across states and between organizations improving dementia detection, services, and supports. "
+      />
+      <WeFacilitate
+        Headings="WE FACILITATE:"
+        weFacilitate={imageLinks.weFacilitate}
+        Description="We envision a world in which dementia is detected before a crisis occurs and in which early detection of dementia promotes better health and wellbeing of older adults, as well as their families and friends. We gather evidence about gaps and barriers to early detection and strategies for improvement that work. We seek to promote solutions through nationwide stakeholder collaboration."
       />
     </>
   );
