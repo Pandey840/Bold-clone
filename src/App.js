@@ -4,6 +4,7 @@ import imageLinks from "./data/imageLinks.json";
 import WhoWeAre from "./components/WhoWeAre";
 import OurMission from "./components/OurMission";
 import WeFacilitate from "./components/WeFacilitate";
+import GetInTouch from "./components/GetInTouch";
 
 function App() {
   return (
@@ -34,6 +35,10 @@ function App() {
         Headings="WE FACILITATE:"
         weFacilitate={imageLinks.weFacilitate}
         Description="We envision a world in which dementia is detected before a crisis occurs and in which early detection of dementia promotes better health and wellbeing of older adults, as well as their families and friends. We gather evidence about gaps and barriers to early detection and strategies for improvement that work. We seek to promote solutions through nationwide stakeholder collaboration."
+      />
+      <GetInTouch
+        Headings="GET IN TOUCH"
+        Description="Our Center is here to provide support to organizations seeking to learn more about early detection of dementia, or are seeking to develop or expand early detection efforts. Get in touch with our team via email:"
       />
     </>
   );

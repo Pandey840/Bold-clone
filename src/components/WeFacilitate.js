@@ -2,7 +2,7 @@ import React from "react";
 
 const WeFacilitate = (props) => {
   return (
-    <div className="bg-[#F0F0EF]">
+    <section className="bg-[#F0F0EF]">
       <div className="max-w-7xl mx-auto">
         <div className="p-10 pb-0 pt-20">
           <h2 className="text-5xl font-extrabold text-[#451C76]">
@@ -25,7 +25,7 @@ const WeFacilitate = (props) => {
           {props.Description}
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
