@@ -5,6 +5,7 @@ import WhoWeAre from "./components/WhoWeAre";
 import OurMission from "./components/OurMission";
 import WeFacilitate from "./components/WeFacilitate";
 import GetInTouch from "./components/GetInTouch";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         Headings="GET IN TOUCH"
         Description="Our Center is here to provide support to organizations seeking to learn more about early detection of dementia, or are seeking to develop or expand early detection efforts. Get in touch with our team via email:"
       />
+      <Footer />
     </>
   );
 }
