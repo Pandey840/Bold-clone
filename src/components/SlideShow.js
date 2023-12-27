@@ -27,9 +27,11 @@ const SlideShow = ({ imageLinks, text1, text2 }) => {
             backgroundPosition: "center",
           }}
         >
-          <div className="text-white max-w-lg mx-40 my-48">
-            <h1 className="text-5xl font-extrabold">{text1}</h1>
-            <p className="text-5xl">{text2}</p>
+          <div className="text-white max-w-lg mx-20 my-24 lg:mx-40 lg:my-48">
+            <h1 className="text-2xl md:text-4xl lg:text-5xl font-extrabold">
+              {text1}
+            </h1>
+            <p className="text-2xl md:text-4xl lg:text-5xl">{text2}</p>
           </div>
         </div>
       ))}
